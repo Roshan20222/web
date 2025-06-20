@@ -1,7 +1,7 @@
 /* Don't change the existing CSS. */
-.outerbox{
+#outerbox{
   
-  border: 10px solid rgb(174, 6, 134);
+ background-color: purple;
 
 }
 
@@ -15,8 +15,11 @@ p {
   margin: 0;
   padding: 0;
 }
-.white-text{
-  color: white;
+.inner-box {
+  
 
   background-color: red;
 }
+.white-text {
+  color: white;
+} 
