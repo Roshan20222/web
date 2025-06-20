@@ -1,9 +1,7 @@
 /* Don't change the existing CSS. */
 body{
-  padding: 10px;
-  color: violet;
-  margin-top: 10px;
-  margin-left: 10px;
+  
+  border: 10px solid rgb(174, 6, 134);
 
 }
 
@@ -16,4 +14,9 @@ p {
   color: yellow;
   margin: 0;
   padding: 0;
+}
+.white-text{
+  color: white;
+  font-size: 20px;
+  background-color: red;
 }
