@@ -15,11 +15,11 @@
 
       /* Hint: What can you do with a media query and flexbox? */
       .pricing-container{
-        display: flex;
         justify-content: center;
         align-items: center;
         height: 100vh;
         gap: 2rem;
+        display: inline-flex;
 
       }
       .pricing-plan{
@@ -47,6 +47,18 @@
         margin-bottom: 10px;  
 
       }
+      .plan-button {
+      padding: 10px;
+      background-color: #ff6600;
+      color: #fff;
+      border-radius: 5px;
+      border: none;
+    }
+    .plan-features {
+      
+      margin: bottom 20px;
+    }
+
       .plan-features li{
         margin: bottom 20px ;
 
@@ -57,6 +69,7 @@
         .pricing-container {
           flex-direction: column;
           align-items: center;
+          
         }
         
       }
