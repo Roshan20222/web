@@ -53,6 +53,10 @@
     }
 
     .grid-container {
+      display: grid;
+      grid-template-columns: auto 400px minmax(200px, 500px);
+      grid-template-rows: repeat(2, 1fr), 2fr;
+      grid-auto-rows: 50px;;
       width: 80%;
       background-color: #ddd;
       padding: 20px;
