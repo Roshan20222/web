@@ -1,3 +1,5 @@
-var a=1;
-a=2;
-console.log(a);
+let firstName="harkirat";
+let age =18;
+let isMarried= false
+
+console.log("this person is "+firstName+" and is "+age+" years old. Is he married? "+isMarried);
